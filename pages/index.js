@@ -6,15 +6,16 @@ const Home = () => (
     <h1>Travel agency for everyone!</h1>
 
     <h3>
-      Hooray 🎉 - you have a great opportunity travel to Alps only for 499$!🏂⛷
+      Hooray 🎉 - you have a great opportunity travel to Redang, Malaysia only
+      for 599$! 🏖🐢
     </h3>
 
-    <img src="images/alps.jpg" className="main__img" />
+    <img src="images/redang.jpg" className="main__img" />
     <div className="main__text">
       <p>
-        Alps Lorem Ipsum has been the industry's standard dummy text ever since
-        the 1500s, when an unknown printer took a galley of type and scrambled
-        it to make a type specimen book. It has survived not only five
+        Redang, Malaysia Lorem Ipsum has been the industry's standard dummy text
+        ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
         centuries, but also the leap into electronic typesetting, remaining
         essentially unchanged. It was popularised in the 1960s with the release
         of Letraset sheets containing Lorem Ipsum passages, and more recently
@@ -46,7 +47,7 @@ const Home = () => (
         align-items: center;
         justify-content: center;
         text-align: center;
-        background-color: white;
+        background-color: aqua;
         color: black;
       }
 
