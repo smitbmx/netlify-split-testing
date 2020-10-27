@@ -47,7 +47,7 @@ const Home = () => (
         align-items: center;
         justify-content: center;
         text-align: center;
-        background-color: aqua;
+        background-color: lightblue;
         color: black;
       }
 
