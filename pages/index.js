@@ -5,7 +5,7 @@ const Home = () => (
   <div>
     <header>
       <h1 className="header__name">
-        Travel agency for everyone, choose the Winter Alps!
+        Travel agency for everyone, try the Winter Alps!
       </h1>
       <h2 className="header__name"></h2>
     </header>
