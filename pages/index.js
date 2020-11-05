@@ -5,7 +5,7 @@ const Home = () => (
   <div>
     <header>
       <h1 className="header__name">
-        Travel agency for everyone, choose Malaysia Redang Paradise!
+        Travel agency for everyone, try Malaysia Redang Paradise!
       </h1>
       <h2 className="header__name"></h2>
     </header>
