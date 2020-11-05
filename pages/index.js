@@ -5,6 +5,7 @@ const Home = () => (
   <div>
     <header>
       <h1 className="header__name">Travel agency for everyone!</h1>
+      <h2 className="header__name">Winter Alps</h2>
     </header>
     <div id="main">
       <article>
@@ -58,6 +59,7 @@ const Home = () => (
       }
       #main > article {
         flex: 1;
+        text-align: justify;
       }
       #main > nav,
       #main > aside {
