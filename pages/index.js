@@ -4,8 +4,10 @@ import Head from "next/head";
 const Home = () => (
   <div>
     <header>
-      <h1 className="header__name">Travel agency for everyone!</h1>
-      <h2 className="header__name">Malaysia Redang Paradise</h2>
+      <h1 className="header__name">
+        Travel agency for everyone, choose Malaysia Redang Paradise!
+      </h1>
+      <h2 className="header__name"></h2>
     </header>
     <div id="main">
       <article>
