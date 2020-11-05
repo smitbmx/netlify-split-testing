@@ -3,66 +3,93 @@ import Head from "next/head";
 
 const Home = () => (
   <div>
-    <h1>Travel agency for everyone!</h1>
-
-    <h3>
-      Hooray 🎉 - you have a great opportunity travel to Maldives only for
-      799$!🏖
-    </h3>
-
-    <img src="images/maldives.jpg" className="main__img" />
-    <div className="main__text">
-      <p>
-        Maldives Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
+    <header>
+      <h1 className="header__name">Travel agency for everyone!</h1>
+      <h2 className="header__name">Maldives paradise</h2>
+    </header>
+    <div id="main">
+      <article>
+        <p>
+          Maldives Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <img src="images/maldives.jpg" className="main__img" />
+        <p>
+          Maldives Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <p>
+          Maldives Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+      </article>
+      <nav></nav>
+      <aside></aside>
     </div>
-    <span>
-      <a href="#"> Contact Us </a>
-    </span>
+    <footer></footer>
 
     <style jsx>{`
-      :global(html, body) {
+      * {
+        box-sizing: border-box;
+      }
+      body {
         margin: 0;
-        padding: 0;
-        height: 100%;
       }
-
-      :global(body) {
-        font-size: calc(10px + 1vmin);
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-          "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-
+      #main {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background-color: white;
-        color: black;
+        min-height: calc(100vh - 40vh);
       }
-
-      .content {
-        padding: 0 32px;
+      #main > article {
+        flex: 1;
+        text-align: justify;
+      }
+      #main > nav,
+      #main > aside {
+        flex: 0 0 20vw;
+        background: white;
+      }
+      #main > nav {
+        order: -1;
+      }
+      header,
+      footer,
+      article,
+      nav,
+      aside {
+        padding: 1em;
+      }
+      header,
+      footer {
+        background: white;
+        height: 20vh;
       }
 
       .main__img {
-        width: 900px;
+        max-width: 100%;
       }
 
-      .main__text {
-        width: 900px;
-        text-align: justify;
-        text-justify: inter-word;
+      .header__name {
+        color: ghostwhite;
+        text-align: center;
+        color: #736aff;
       }
     `}</style>
   </div>
